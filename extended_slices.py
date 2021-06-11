@@ -1,6 +1,6 @@
 list1 = []
 
-[list1.append(i) for i in range(1, 50)]
+[list1.append(i) for i in range(1, 51)]
 
 print(list1[::-1])
 

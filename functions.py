@@ -15,6 +15,6 @@ def func2(arg1, arg2, arg3):
 func2(arg3 = 'Argument 3', arg2 = 'Argument 2', arg1 = 'Argument 1')
 
 def func3(*test):
-    print('The first argument is', test[2])
+    print('The first argument is', test[0])
 
 func3('Hari', 'Krishna', 'Venkata')
